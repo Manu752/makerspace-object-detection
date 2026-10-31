@@ -1,0 +1,23 @@
+{
+  "name": "makerspace-object-detection",
+  "version": "1.0.0",
+  "description": "YOLO-based object detection application for workshop tools, electronic components, PCBs and other makerspace objects (2024)",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -l 3000 ."
+  },
+  "keywords": [
+    "object-detection",
+    "yolo",
+    "yolo11",
+    "onnx",
+    "onnxruntime-web",
+    "makerspace",
+    "computer-vision"
+  ],
+  "author": "Manu752",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
